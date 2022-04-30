@@ -17,3 +17,5 @@ print("hi")
     #    congratulate player
 
 print("Greetings, player!")
+
+player_name = input("What is your name? Enter here: >  ")
