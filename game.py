@@ -3,6 +3,8 @@
 # Put your code here
 """A number-guessing game."""
 
+import random 
+
 print("hi")
 
 #greet player
@@ -19,3 +21,6 @@ print("hi")
 print("Greetings, player!")
 
 player_name = input("What is your name? Enter here: >  ")
+
+random_num = random.randint(1, 101)
+#print(random_num)
